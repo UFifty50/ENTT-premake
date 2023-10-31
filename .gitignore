@@ -13,3 +13,5 @@ cpp.hint
 /bazel-*
 
 bin/
+/EnTT.vcxproj
+/EnTT.vcxproj.filters
