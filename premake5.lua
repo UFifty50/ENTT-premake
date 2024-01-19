@@ -2,6 +2,7 @@ project "EnTT"
     kind "StaticLib"
     language "C++"
     cppdialect "C++17"
+    staticruntime "off"
 
     targetdir ("bin/%{cfg.buildcfg}")
     objdir ("bin/intermediate/%{cfg.buildcfg}")
